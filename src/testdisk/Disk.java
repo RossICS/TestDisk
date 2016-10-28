@@ -52,7 +52,7 @@ public class Disk extends Circle {
 	 */
 	public double volume() {
 		double v;
-		
+		String name;
 		v = super.area() * thickness;
 		return(v);
 	}
