@@ -48,6 +48,7 @@ public class Disk extends Circle {
 	 * Returns the volume of the disc.
 	 * pre: none
 	 * post: The volume of the disc has been returned.
+         * @return 
 	 */
 	public double volume() {
 		double v;
@@ -83,11 +84,11 @@ public class Disk extends Circle {
 	 * post: A string representing the Disk object has 
 	 * been returned.
 	 */
-	public String toString() {
-		String diskString;
-
-		diskString = "The disk has radius " + super.getRadius() +
-					 " and thickness " + thickness + ".";
-	 	return(diskString);
-	}
+//	public String toString() {
+//		String diskString;
+//
+//		diskString = "The disk has radius " + super.getRadius() +
+//					 " and thickness " + thickness + ".";
+//	 	return(diskString);
+//	}
 }
